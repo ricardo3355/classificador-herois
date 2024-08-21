@@ -1,29 +1,33 @@
 // Aqui o Heroi será o meu usuario padrão do Github
 // XP com número não redondo para melhor exemplificar o calculo da expressão
-
-
 let nome = "Ricardo3355"
 let xp = 9023
 let nivel = ""
 
 if (xp <= 1000) {
   nivel = "Ferro"
-} else if (xp <= 2000) {
+} 
+else if (xp <= 2000) {
   nivel = "Bronze"
-  } else if (xp <= 6000) {
+  } 
+else if (xp <= 6000) {
   nivel = "Prata"
-} else if (xp <= 7000) {
+}
+else if (xp <= 7000) {
   nivel = "Ouro"
-} else if (xp <= 8000) {
+}
+else if (xp <= 8000) {
   nivel = "Platina"
-} else if (xp <= 9000) {
+} 
+else if (xp <= 9000) {
   nivel = "Ascendente"
-} else if (xp <= 10000) {
+} 
+else if (xp <= 10000) {
   nivel = "Imortal"
-} else if (xp >= 10001) {
+} 
+else if (xp >= 10001) {
   nivel = "Radiante"
 }
-
 console.log("O Herói de nome " + nome + " está no nível de " + nivel)
 console.log("Sua pontuação é " + xp)
 
